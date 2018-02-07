@@ -1,13 +1,44 @@
-Version: 1.0
+---
+title: "Week 3-Intro to data types"
+output: html_notebook
+---
 
-RestoreWorkspace: Default
-SaveWorkspace: Default
-AlwaysSaveHistory: Default
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
-EnableCodeIndexing: Yes
-UseSpacesForTab: Yes
-NumSpacesForTab: 2
-Encoding: UTF-8
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
 
-RnwWeave: Sweave
-LaTeX: pdfLaTeX
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+Notes: 2/7
+Create repos externally on github, then clone to R studio using Sourcetree. Make adjustments using commit in Sourcetree. When you change the file in R studio and save, it will be tracked in Sourcetree. Will have to "push" manually in ST to update this info on Github. 
+Can move an existing notebook into this directory
+
+##DATA TYPES
+
+Basic types of data in R:
+1. Numeric
+  i) Integer
+  ii)Float or double
+2. Logical
+3. Character (strings)
+4. Complex
+
+##Code chunks
+
+ctrl+alt+i creates code chunk
+Can name code chunk. if you add a space after the r, you can allow arguments. Providing variables for data to work with. If using multiple arguments, use , between words. It will auto fill in arguments. We'll get to the specifics later. 
+Bottom of screen- "DATA TYPES" keeps track of the names and # of your code chunks. Name chunks to keep them in order. 
+Can also add headers, which will appear in the list
+```{r types}
+2+2
+
+```
+Green arrow in code chunk: RUN button
+
+
+
+
